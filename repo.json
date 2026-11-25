@@ -3,7 +3,7 @@
     "Author": "Kratos",
     "Name": "MitigationAssistant",
     "InternalName": "MitigationAssistant",
-    "AssemblyVersion": "0.2.9.0",
+    "AssemblyVersion": "0.2.10.0",
     "Description": "Tracks Mitigation usage and analyzes combat data and visualizes it",
     "ApplicableVersion": "any",
     "Tags": [
@@ -20,12 +20,12 @@
     "LoadPriority": 0,
     "Punchline": "I'll write this later - bet I'll forget",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v0.2.9/MitigationAssistant-0.2.9.zip",
-    "DownloadLinkUpdate": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v0.2.9/MitigationAssistant-0.2.9.zip",
-    "DownloadLinkTesting": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v0.2.9/MitigationAssistant-0.2.9.zip",
+    "DownloadLinkInstall": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v0.2.10/MitigationAssistant-0.2.10.zip",
+    "DownloadLinkUpdate": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v0.2.10/MitigationAssistant-0.2.10.zip",
+    "DownloadLinkTesting": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v0.2.10/MitigationAssistant-0.2.10.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1795600540,
-    "Changelog": "0.2.9 - Preview fixes\n\n- Any mitigation can be added in the preview, whatever its cooldown, charges or range.\n- Removing a mitigation and adding it back changes nothing for the players who had it; only players without it get the new one.\n- Changed values show the new number, marked, with the live value in the tooltip. Rows turn green when a player now survives and red when they now die.\n- What each mitigation prevents is recalculated in the preview. A removed one shows what removing it cost, in red.\n- Barriers added in the preview are sized from the recording (e.g. Divine Veil from the paladin's HP).\n- Damage no longer shows the B / P (blocked / parried) letters; the tooltip says it."
+    "LastUpdate": 1795606144,
+    "Changelog": "0.2.10 - Fixes\n\n- FRU: Cruel Path of Light and Cruel Path of Darkness are drawn as lines in front of the caster only.\n- Fixed a pull that could not be opened (\"Object reference not set...\") when several hits on one player in a row did no damage and left their barrier untouched."
   }
 ]
