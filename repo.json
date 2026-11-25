@@ -1,0 +1,31 @@
+[
+  {
+    "Author": "Kratos",
+    "Name": "MitigationAssistant",
+    "InternalName": "MitigationAssistant",
+    "AssemblyVersion": "0.2.7.0",
+    "Description": "Tracks Mitigation usage and analyzes combat data and visualizes it",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "mitigation",
+      "deaths",
+      "raid",
+      "timeline",
+      "analysis"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "I'll write this later - bet I'll forget",
+    "AcceptsFeedback": false,
+    "DownloadLinkInstall": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v0.2.7/MitigationAssistant-0.2.7.zip",
+    "DownloadLinkUpdate": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v0.2.7/MitigationAssistant-0.2.7.zip",
+    "DownloadLinkTesting": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v0.2.7/MitigationAssistant-0.2.7.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1795596749,
+    "Changelog": "0.2.7 - Rewrite: find out why your party died\n\nThe plugin is rebuilt from scratch. Every pull is recorded; after a wipe, type /ma.\n\n- Battle Timeline: every enemy attack, death and raise, including deaths without damage (walls, knockbacks).\n- Attack details: damage per player, physical or magical, barriers, and every mitigation that was up and who used it.\n- Death details: the killing hit, the last seconds of damage and healing, and the mitigation they had.\n- Positions: where everyone stood on each attack, and a Position Timeline to play the pull back (instanced duties only).\n- Players: every mitigation, barrier and heal each player used and what it did.\n- What-if preview: remove or add mitigations and see who would have lived.\n- Notes: /ma note <text> marks a moment; between pulls it goes to the end of the last pull."
+  }
+]
