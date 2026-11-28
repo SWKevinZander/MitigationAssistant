@@ -3,7 +3,7 @@
     "Author": "Kratos",
     "Name": "MitigationAssistant",
     "InternalName": "MitigationAssistant",
-    "AssemblyVersion": "1.0.0.0",
+    "AssemblyVersion": "1.1.0.0",
     "Description": "Tracks Mitigation usage and analyzes combat data and visualizes it",
     "ApplicableVersion": "any",
     "Tags": [
@@ -20,11 +20,11 @@
     "LoadPriority": 0,
     "Punchline": "I'll write this later - bet I'll forget",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v1.0.0/MitigationAssistant-1.0.0.zip",
-    "DownloadLinkUpdate": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v1.0.0/MitigationAssistant-1.0.0.zip",
-    "DownloadLinkTesting": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v1.0.0/MitigationAssistant-1.0.0.zip",
+    "DownloadLinkInstall": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v1.1.0/MitigationAssistant-1.1.0.zip",
+    "DownloadLinkUpdate": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v1.1.0/MitigationAssistant-1.1.0.zip",
+    "DownloadLinkTesting": "https://github.com/SWKevinZander/MitigationAssistant/releases/download/v1.1.0/MitigationAssistant-1.1.0.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1795606347
+    "LastUpdate": 1795859257
   }
 ]
